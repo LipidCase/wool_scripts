@@ -3,7 +3,7 @@ name: |-
 desc: |-
   自动监控TestFlight名额，一旦有新的名额即刻加入。
 author: |-
-  DecoAri[https://github.com/DecoAri], xream[https://github.com/xream]
+  奶思[https://github.com/fmz200], DecoAri[https://github.com/DecoAri], xream[https://github.com/xream]
 icon: |-
   https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/TestFlight.png
 category: |-
@@ -17,33 +17,32 @@ loon_version: |-
 homepage: |-
   https://hub.kelee.one
 date: |-
-  2025-09-02 23:41:52
+  2025-11-08 03:27:30
 
 http:
 
-  mitm:
-    - "testflight.apple.com"
-
   script:
     - match: ^https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/apps$
-      name: "获取账号令牌_19"
-      type: request
-
-    - match: ^https://testflight.apple.com/join/(.*)
-      name: "获取账号令牌_19"
+      name: "获取账号令牌_21"
       type: request
 
 cron:
   script:
-    - name: "自动加入TF_21"
+    - name: "自动加入TF_22"
       cron:  "0 0/2 * * * ?"
-      timeout: 180
+      timeout: 600
+    - name: "监控TF位置_23"
+      cron:  "0 * * * * ?"
+      timeout: 30
 
 script-providers:
-  "获取账号令牌_19":
-    url: https://kelee.one/Resource/JavaScript/TestFlight/TF_keys.js
+  "获取账号令牌_21":
+    url: https://kelee.one/Resource/JavaScript/TestFlight/CaptureAccountToken.js
     interval: 86400
-  "自动加入TF_21":
-    url: https://kelee.one/Resource/JavaScript/TestFlight/Auto_join_TF.js
+  "自动加入TF_22":
+    url: https://kelee.one/Resource/JavaScript/TestFlight/AutoJoinTF.js
+    interval: 86400
+  "监控TF位置_23":
+    url: https://kelee.one/Resource/JavaScript/TestFlight/AutoMonitorTF.js
     interval: 86400
 
