@@ -86,7 +86,7 @@
 | [马蜂窝去广告](https://raw.githubusercontent.com/usklsvg/Plugins/refs/heads/main/plugin/MaFengWo_remove_ads.lpx) | 移除首页信息流广告、商城横幅推广、我的页面弹窗。 |
 | [脉脉去广告](https://raw.githubusercontent.com/usklsvg/Plugins/refs/heads/main/plugin/MaiMai_remove_ads.lpx) | 移除开屏广告、信息流广告、横幅推广、相关帖子推荐。 |
 | [网易邮箱大师去广告](https://raw.githubusercontent.com/usklsvg/Plugins/refs/heads/main/plugin/MailMaster_remove_ads.lpx) | 移除网易邮箱大师开屏广告、签到任务提醒，精简侧拉抽屉和我的页面。 |
-| [芒果TV去广告](https://raw.githubusercontent.com/usklsvg/Plugins/refs/heads/main/plugin/MangoTV_remove_ads.lpx) | 过滤芒果TV客户端广告 |
+| [芒果TV去广告](https://raw.githubusercontent.com/usklsvg/Plugins/refs/heads/main/plugin/MangoTV_remove_ads.lpx) | 移除开屏广告、信息流广告、播放页广告，精简我的页面。 |
 | [美柚去广告](https://raw.githubusercontent.com/usklsvg/Plugins/refs/heads/main/plugin/MeetYou_remove_ads.lpx) | 移除开屏广告、弹窗推广和信息流推广，移除青少年模式弹窗和我的页面推广。 |
 | [美食杰去广告](https://raw.githubusercontent.com/usklsvg/Plugins/refs/heads/main/plugin/MeiShiJie_remove_ads.lpx) | 移除开屏广告和信息流广告。 |
 | [美图秀秀去广告](https://raw.githubusercontent.com/usklsvg/Plugins/refs/heads/main/plugin/MeiTu_remove_ads.lpx) | 移除开屏广告、横幅推广，精简我的页面。 |
