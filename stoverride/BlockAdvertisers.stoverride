@@ -15,7 +15,7 @@ loon_version: |-
 homepage: |-
   https://hub.kelee.one
 date: |-
-  2025-10-26 01:24:37
+  2025-11-08 21:21:51
 
 rules:
   - AND,((DOMAIN-KEYWORD,tnc),(OR,((DOMAIN-SUFFIX,capcutapi.com),(DOMAIN-SUFFIX,zijieapi.com),(DOMAIN-SUFFIX,isnssdk.com),(DOMAIN-SUFFIX,toutiaoapi.com),(DOMAIN-SUFFIX,bytedance.com),(DOMAIN-SUFFIX,snssdk.com),(DOMAIN-SUFFIX,sgsnssdk.com)))),DIRECT
@@ -236,6 +236,8 @@ http:
     - "images.pinduoduo.com"
 
   url-rewrite:
+    - >-
+      ^http:\/\/.+\/amdc\/mobileDispatch - reject
     - >-
       ^https:\/\/video-dsp\.pddpic\.com\/market-dsp-video\/ - reject
     - >-
